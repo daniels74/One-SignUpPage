@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  body {
+    /* background-color: #243344; */
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  form {
+    height: 50%;
+    width: 75%;
+    /* background-color: aqua; */
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 1rem; */
+  }
+  
+  header {
+    font-size: 40px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+    /* background-color: blue; */
+    width: 90%;
+    height: 100%;
+  }
+  
+  input {
+    width: 100%;
+    height: 50%;
+  }
+  
+  input:focus {
+    /* border-color: rgb(53, 92, 141); */
+    box-shadow: 10px 5px 5px black;
+  }
+  
+  .conditions-row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .checkbox {
+    height: 1rem;
+    width: 1rem;
+  }
+  
+  .button-row {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  button {
+      background-color: rgb(59, 127, 200);
+      color: whitesmoke;
+      border-radius: 6px;
+      padding: 4px;
+  }
+  
+  .button1 {
+    width: 45%;
+    height: 40%;
+  }
+  
+  .button2 {
+    width: 45%;
+    height: 40%;
+    border-radius: 6px;
+    background-color: rgb(59, 200, 59);
+  }
+  
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+      font-size: 20px;
+  }
+  :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  
+      font-size: 20px;
+  }
+  ::-moz-placeholder { /* Mozilla Firefox 19+ */
+      font-size: 20px;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+      font-size: 20px;
+  }
+  
+  @media screen and (max-width: 400px) {
+    input {
+      width: 20%;
+      height: 20%;
+    }
+  }
+  
